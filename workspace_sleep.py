@@ -8,12 +8,11 @@ import json
 import logging
 from collections import defaultdict
 
-# ── Configuration ────────────────────────────────────────────────────────────
-SLEEP_AFTER_SECONDS = 30
+#Configuration
+SLEEP_AFTER_SECONDS = 300
 CHECK_INTERVAL      = 10
 
 MANAGED_APPS = {
-    "tradingview":  "tradingview",
     "firefox":      "firefox",
     "chromium":     "chromium",
     "google-chrome":"google-chrome",
@@ -30,7 +29,7 @@ MANAGED_APPS = {
 
 NEVER_SUSPEND = set()
 LOG_FILE = "/tmp/workspace_sleep.log"
-# ─────────────────────────────────────────────────────────────────────────────
+#main
 
 logging.basicConfig(
     filename=LOG_FILE,
