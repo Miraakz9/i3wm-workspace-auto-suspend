@@ -168,7 +168,7 @@ pgrep -a -f workspace_sleep.py
 | **Audio/video players** | Will be silenced when suspended — add to `NEVER_SUSPEND` if needed |
 | **Video calls** | May drop connection on `SIGSTOP` — add to `NEVER_SUSPEND` |
 | **Terminals** | Any running jobs inside will also be paused — usually fine |
-| **Electron apps** | Work well — TradingView, VS Code, Discord all tested |
+| **Electron apps** | Work well - Antigravity, VS Code, Discord all tested |
 | **Background apps** | Add to `NEVER_SUSPEND` to exclude them entirely |
 
 ---
