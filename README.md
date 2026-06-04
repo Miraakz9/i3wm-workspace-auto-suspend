@@ -40,6 +40,11 @@ No pip packages needed.
 ## Installation
 
 ```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/Miraakz9/i3wm-workspace-auto-suspend/main/install.sh)
+```
+
+## Manual Installation
+```bash
 # Copy to your i3 config directory
 cp workspace_sleep.py ~/.config/i3/workspace_sleep.py
 chmod +x ~/.config/i3/workspace_sleep.py
