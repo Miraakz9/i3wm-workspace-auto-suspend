@@ -1,6 +1,6 @@
-# Auto Suspend Inactive i3wm Workspace
+# Auto Suspend Inactive i3wm Workspaces
 
-Full power to active workspaces!
+Full power to active workspace!
 
 Automatically suspend inactive apps in [i3wm](https://i3wm.org/) to save CPU and battery. When you switch away from a workspace, apps on it are paused after a configurable timeout. When you switch back, they resume instantly.
 
